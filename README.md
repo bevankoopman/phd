@@ -25,3 +25,17 @@ Compare two sets of TREC retrieval results.
 	Output:
 		Both results file annotated with i) '*' to indicate relevance ii) the position of the 
 		document as [x,y] where x = pos in 1.results and y = pos in 2.results.
+
+
+## plot_eval
+
+Scripts that compare two trec `.eval` files and plots for comparison.
+
+Usage:
+
+```
+plot_eval.py -<measure> <first_eval_file> <second_eval_file>
+```
+
+Where `measure` is one of the evaluation measure that has been reported in each eval file.
+
